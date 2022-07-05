@@ -1,0 +1,161 @@
+[2022-07-05 14:24:36 +0000] [14848] [INFO] Starting gunicorn 20.1.0
+[2022-07-05 14:24:36 +0000] [14848] [INFO] Listening at: unix:/run/gunicorn.sock (14848)
+[2022-07-05 14:24:36 +0000] [14848] [INFO] Using worker: sync
+[2022-07-05 14:24:36 +0000] [14849] [INFO] Booting worker with pid: 14849
+[2022-07-05 14:24:36 +0000] [14850] [INFO] Booting worker with pid: 14850
+[2022-07-05 14:24:36 +0000] [14851] [INFO] Booting worker with pid: 14851
+[2022-07-05 21:11:57 +0000] [14848] [INFO] Handling signal: term
+[2022-07-05 21:11:57 +0000] [14849] [INFO] Worker exiting (pid: 14849)
+[2022-07-05 21:11:57 +0000] [14850] [INFO] Worker exiting (pid: 14850)
+[2022-07-05 21:11:57 +0000] [14851] [INFO] Worker exiting (pid: 14851)
+[2022-07-05 21:11:57 +0000] [14848] [WARNING] Worker with pid 14849 was terminated due to signal 15
+[2022-07-05 21:11:57 +0000] [14848] [WARNING] Worker with pid 14850 was terminated due to signal 15
+[2022-07-05 21:11:57 +0000] [14848] [WARNING] Worker with pid 14851 was terminated due to signal 15
+[2022-07-05 21:11:58 +0000] [14848] [INFO] Shutting down: Master
+[2022-07-05 21:11:58 +0000] [15881] [INFO] Starting gunicorn 20.1.0
+[2022-07-05 21:11:58 +0000] [15881] [ERROR] Retrying in 1 second.
+[2022-07-05 21:11:59 +0000] [15881] [ERROR] Retrying in 1 second.
+[2022-07-05 21:12:00 +0000] [15881] [ERROR] Retrying in 1 second.
+[2022-07-05 21:12:01 +0000] [15881] [ERROR] Retrying in 1 second.
+[2022-07-05 21:12:02 +0000] [15881] [ERROR] Retrying in 1 second.
+[2022-07-05 21:12:03 +0000] [15881] [ERROR] Can't connect to /run/gunicorn.sock
+[2022-07-05 21:12:07 +0000] [15919] [INFO] Starting gunicorn 20.1.0
+[2022-07-05 21:12:07 +0000] [15919] [INFO] Listening at: unix:/run/gunicorn.sock (15919)
+[2022-07-05 21:12:07 +0000] [15919] [INFO] Using worker: sync
+[2022-07-05 21:12:07 +0000] [15920] [INFO] Booting worker with pid: 15920
+[2022-07-05 21:12:07 +0000] [15921] [INFO] Booting worker with pid: 15921
+[2022-07-05 21:12:07 +0000] [15922] [INFO] Booting worker with pid: 15922
+[2022-07-05 21:27:35 +0000] [15919] [INFO] Handling signal: term
+[2022-07-05 21:27:35 +0000] [15920] [INFO] Worker exiting (pid: 15920)
+[2022-07-05 21:27:35 +0000] [15921] [INFO] Worker exiting (pid: 15921)
+[2022-07-05 21:27:35 +0000] [15922] [INFO] Worker exiting (pid: 15922)
+[2022-07-05 21:27:35 +0000] [15919] [WARNING] Worker with pid 15921 was terminated due to signal 15
+[2022-07-05 21:27:35 +0000] [15919] [WARNING] Worker with pid 15922 was terminated due to signal 15
+[2022-07-05 21:27:35 +0000] [15919] [WARNING] Worker with pid 15920 was terminated due to signal 15
+[2022-07-05 21:27:35 +0000] [15919] [INFO] Shutting down: Master
+[2022-07-05 21:27:35 +0000] [16934] [INFO] Starting gunicorn 20.1.0
+[2022-07-05 21:27:35 +0000] [16934] [INFO] Listening at: unix:/run/gunicorn.sock (16934)
+[2022-07-05 21:27:35 +0000] [16934] [INFO] Using worker: sync
+[2022-07-05 21:27:35 +0000] [16935] [INFO] Booting worker with pid: 16935
+[2022-07-05 21:27:35 +0000] [16936] [INFO] Booting worker with pid: 16936
+[2022-07-05 21:27:35 +0000] [16937] [INFO] Booting worker with pid: 16937
+[2022-07-05 21:27:37 +0000] [16934] [INFO] Handling signal: term
+[2022-07-05 21:27:37 +0000] [16935] [INFO] Worker exiting (pid: 16935)
+[2022-07-05 21:27:37 +0000] [16936] [INFO] Worker exiting (pid: 16936)
+[2022-07-05 21:27:37 +0000] [16934] [WARNING] Worker with pid 16935 was terminated due to signal 15
+[2022-07-05 21:27:37 +0000] [16937] [INFO] Worker exiting (pid: 16937)
+[2022-07-05 21:27:37 +0000] [16934] [INFO] Shutting down: Master
+[2022-07-05 21:27:37 +0000] [16959] [INFO] Starting gunicorn 20.1.0
+[2022-07-05 21:27:37 +0000] [16959] [INFO] Listening at: unix:/run/gunicorn.sock (16959)
+[2022-07-05 21:27:37 +0000] [16959] [INFO] Using worker: sync
+[2022-07-05 21:27:37 +0000] [16960] [INFO] Booting worker with pid: 16960
+[2022-07-05 21:27:38 +0000] [16961] [INFO] Booting worker with pid: 16961
+[2022-07-05 21:27:38 +0000] [16962] [INFO] Booting worker with pid: 16962
+[2022-07-05 21:31:30 +0000] [16959] [INFO] Handling signal: term
+[2022-07-05 21:31:30 +0000] [16960] [INFO] Worker exiting (pid: 16960)
+[2022-07-05 21:31:30 +0000] [16962] [INFO] Worker exiting (pid: 16962)
+[2022-07-05 21:31:30 +0000] [16961] [INFO] Worker exiting (pid: 16961)
+[2022-07-05 21:31:30 +0000] [16959] [WARNING] Worker with pid 16960 was terminated due to signal 15
+[2022-07-05 21:31:30 +0000] [16959] [WARNING] Worker with pid 16961 was terminated due to signal 15
+[2022-07-05 21:31:30 +0000] [16959] [WARNING] Worker with pid 16962 was terminated due to signal 15
+[2022-07-05 21:31:30 +0000] [16959] [INFO] Shutting down: Master
+[2022-07-05 21:31:30 +0000] [17075] [INFO] Starting gunicorn 20.1.0
+[2022-07-05 21:31:30 +0000] [17075] [ERROR] Retrying in 1 second.
+[2022-07-05 21:31:31 +0000] [17075] [ERROR] Retrying in 1 second.
+[2022-07-05 21:31:32 +0000] [17075] [ERROR] Retrying in 1 second.
+[2022-07-05 21:31:33 +0000] [17075] [ERROR] Retrying in 1 second.
+[2022-07-05 21:31:34 +0000] [17075] [ERROR] Retrying in 1 second.
+[2022-07-05 21:31:35 +0000] [17075] [ERROR] Can't connect to /run/gunicorn.sock
+[2022-07-05 21:31:42 +0000] [17147] [INFO] Starting gunicorn 20.1.0
+[2022-07-05 21:31:42 +0000] [17147] [INFO] Listening at: unix:/run/gunicorn.sock (17147)
+[2022-07-05 21:31:42 +0000] [17147] [INFO] Using worker: sync
+[2022-07-05 21:31:42 +0000] [17148] [INFO] Booting worker with pid: 17148
+[2022-07-05 21:31:42 +0000] [17149] [INFO] Booting worker with pid: 17149
+[2022-07-05 21:31:42 +0000] [17150] [INFO] Booting worker with pid: 17150
+[2022-07-05 21:54:41 +0000] [17148] [INFO] Worker exiting (pid: 17148)
+[2022-07-05 21:54:41 +0000] [17149] [INFO] Worker exiting (pid: 17149)
+[2022-07-05 21:54:41 +0000] [17150] [INFO] Worker exiting (pid: 17150)
+[2022-07-05 22:01:11 +0000] [18349] [INFO] Starting gunicorn 20.1.0
+[2022-07-05 22:01:11 +0000] [18349] [INFO] Listening at: unix:/run/gunicorn.sock (18349)
+[2022-07-05 22:01:11 +0000] [18349] [INFO] Using worker: sync
+[2022-07-05 22:01:11 +0000] [18350] [INFO] Booting worker with pid: 18350
+[2022-07-05 22:01:11 +0000] [18351] [INFO] Booting worker with pid: 18351
+[2022-07-05 22:01:11 +0000] [18352] [INFO] Booting worker with pid: 18352
+[2022-07-05 22:28:04 +0000] [18349] [INFO] Handling signal: term
+[2022-07-05 22:28:04 +0000] [18350] [INFO] Worker exiting (pid: 18350)
+[2022-07-05 22:28:04 +0000] [18351] [INFO] Worker exiting (pid: 18351)
+[2022-07-05 22:28:04 +0000] [18352] [INFO] Worker exiting (pid: 18352)
+[2022-07-05 22:28:05 +0000] [18349] [INFO] Shutting down: Master
+[2022-07-05 22:28:05 +0000] [22247] [INFO] Starting gunicorn 20.1.0
+[2022-07-05 22:28:05 +0000] [22247] [INFO] Listening at: unix:/run/gunicorn.sock (22247)
+[2022-07-05 22:28:05 +0000] [22247] [INFO] Using worker: sync
+[2022-07-05 22:28:05 +0000] [22249] [INFO] Booting worker with pid: 22249
+[2022-07-05 22:28:05 +0000] [22250] [INFO] Booting worker with pid: 22250
+[2022-07-05 22:28:05 +0000] [22251] [INFO] Booting worker with pid: 22251
+[2022-07-05 22:41:03 +0000] [22247] [INFO] Handling signal: term
+[2022-07-05 22:41:03 +0000] [22249] [INFO] Worker exiting (pid: 22249)
+[2022-07-05 22:41:03 +0000] [22250] [INFO] Worker exiting (pid: 22250)
+[2022-07-05 22:41:03 +0000] [22251] [INFO] Worker exiting (pid: 22251)
+[2022-07-05 22:41:04 +0000] [22247] [INFO] Shutting down: Master
+[2022-07-05 22:41:04 +0000] [22557] [INFO] Starting gunicorn 20.1.0
+[2022-07-05 22:41:04 +0000] [22557] [INFO] Listening at: unix:/run/gunicorn.sock (22557)
+[2022-07-05 22:41:04 +0000] [22557] [INFO] Using worker: sync
+[2022-07-05 22:41:04 +0000] [22559] [INFO] Booting worker with pid: 22559
+[2022-07-05 22:41:04 +0000] [22560] [INFO] Booting worker with pid: 22560
+[2022-07-05 22:41:04 +0000] [22561] [INFO] Booting worker with pid: 22561
+[2022-07-05 22:55:29 +0000] [22557] [INFO] Handling signal: term
+[2022-07-05 22:55:29 +0000] [22559] [INFO] Worker exiting (pid: 22559)
+[2022-07-05 22:55:29 +0000] [22561] [INFO] Worker exiting (pid: 22561)
+[2022-07-05 22:55:29 +0000] [22560] [INFO] Worker exiting (pid: 22560)
+[2022-07-05 22:55:29 +0000] [22557] [WARNING] Worker with pid 22559 was terminated due to signal 15
+[2022-07-05 22:55:29 +0000] [22557] [WARNING] Worker with pid 22561 was terminated due to signal 15
+[2022-07-05 22:55:29 +0000] [22557] [WARNING] Worker with pid 22560 was terminated due to signal 15
+[2022-07-05 22:55:29 +0000] [22557] [INFO] Shutting down: Master
+[2022-07-05 22:55:29 +0000] [22767] [INFO] Starting gunicorn 20.1.0
+[2022-07-05 22:55:29 +0000] [22767] [INFO] Listening at: unix:/run/gunicorn.sock (22767)
+[2022-07-05 22:55:29 +0000] [22767] [INFO] Using worker: sync
+[2022-07-05 22:55:29 +0000] [22769] [INFO] Booting worker with pid: 22769
+[2022-07-05 22:55:29 +0000] [22770] [INFO] Booting worker with pid: 22770
+[2022-07-05 22:55:29 +0000] [22771] [INFO] Booting worker with pid: 22771
+[2022-07-05 23:03:15 +0000] [22767] [INFO] Handling signal: term
+[2022-07-05 23:03:15 +0000] [22769] [INFO] Worker exiting (pid: 22769)
+[2022-07-05 23:03:15 +0000] [22771] [INFO] Worker exiting (pid: 22771)
+[2022-07-05 23:03:15 +0000] [22770] [INFO] Worker exiting (pid: 22770)
+[2022-07-05 23:03:15 +0000] [22767] [WARNING] Worker with pid 22769 was terminated due to signal 15
+[2022-07-05 23:03:15 +0000] [22767] [WARNING] Worker with pid 22770 was terminated due to signal 15
+[2022-07-05 23:03:15 +0000] [22767] [WARNING] Worker with pid 22771 was terminated due to signal 15
+[2022-07-05 23:03:16 +0000] [22767] [INFO] Shutting down: Master
+[2022-07-05 23:03:16 +0000] [22891] [INFO] Starting gunicorn 20.1.0
+[2022-07-05 23:03:16 +0000] [22891] [INFO] Listening at: unix:/run/gunicorn.sock (22891)
+[2022-07-05 23:03:16 +0000] [22891] [INFO] Using worker: sync
+[2022-07-05 23:03:16 +0000] [22893] [INFO] Booting worker with pid: 22893
+[2022-07-05 23:03:16 +0000] [22894] [INFO] Booting worker with pid: 22894
+[2022-07-05 23:03:16 +0000] [22895] [INFO] Booting worker with pid: 22895
+[2022-07-05 23:24:09 +0000] [22891] [INFO] Handling signal: term
+[2022-07-05 23:24:09 +0000] [22893] [INFO] Worker exiting (pid: 22893)
+[2022-07-05 23:24:09 +0000] [22894] [INFO] Worker exiting (pid: 22894)
+[2022-07-05 23:24:09 +0000] [22895] [INFO] Worker exiting (pid: 22895)
+[2022-07-05 23:24:09 +0000] [22891] [WARNING] Worker with pid 22893 was terminated due to signal 15
+[2022-07-05 23:24:09 +0000] [22891] [WARNING] Worker with pid 22894 was terminated due to signal 15
+[2022-07-05 23:24:09 +0000] [22891] [WARNING] Worker with pid 22895 was terminated due to signal 15
+[2022-07-05 23:24:10 +0000] [22891] [INFO] Shutting down: Master
+[2022-07-05 23:24:10 +0000] [23198] [INFO] Starting gunicorn 20.1.0
+[2022-07-05 23:24:10 +0000] [23198] [INFO] Listening at: unix:/run/gunicorn.sock (23198)
+[2022-07-05 23:24:10 +0000] [23198] [INFO] Using worker: sync
+[2022-07-05 23:24:10 +0000] [23199] [INFO] Booting worker with pid: 23199
+[2022-07-05 23:24:10 +0000] [23200] [INFO] Booting worker with pid: 23200
+[2022-07-05 23:24:10 +0000] [23201] [INFO] Booting worker with pid: 23201
+[2022-07-05 23:25:36 +0000] [23198] [INFO] Handling signal: term
+[2022-07-05 23:25:36 +0000] [23199] [INFO] Worker exiting (pid: 23199)
+[2022-07-05 23:25:36 +0000] [23200] [INFO] Worker exiting (pid: 23200)
+[2022-07-05 23:25:36 +0000] [23201] [INFO] Worker exiting (pid: 23201)
+[2022-07-05 23:25:36 +0000] [23198] [WARNING] Worker with pid 23199 was terminated due to signal 15
+[2022-07-05 23:25:36 +0000] [23198] [WARNING] Worker with pid 23200 was terminated due to signal 15
+[2022-07-05 23:25:36 +0000] [23198] [WARNING] Worker with pid 23201 was terminated due to signal 15
+[2022-07-05 23:25:37 +0000] [23198] [INFO] Shutting down: Master
+[2022-07-05 23:25:37 +0000] [23289] [INFO] Starting gunicorn 20.1.0
+[2022-07-05 23:25:37 +0000] [23289] [INFO] Listening at: unix:/run/gunicorn.sock (23289)
+[2022-07-05 23:25:37 +0000] [23289] [INFO] Using worker: sync
+[2022-07-05 23:25:37 +0000] [23290] [INFO] Booting worker with pid: 23290
+[2022-07-05 23:25:37 +0000] [23291] [INFO] Booting worker with pid: 23291
+[2022-07-05 23:25:37 +0000] [23292] [INFO] Booting worker with pid: 23292

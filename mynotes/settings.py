@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-#kup2u#uvdwi2+&!a)o#0^eoq!!+(8zps$c^27yv=k5e)3fy++'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['43.200.56.142']
 
 
 # Application definition
@@ -125,15 +125,13 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
 
-STATICFILES_DIRS = [
-    BASE_DIR / 'frontend/build/static'
-]
+# STATICFILES_DIRS = [
+#     BASE_DIR / 'frontend/build/static'
+# ]
 
-STATIC_ROOT = [
-    BASE_DIR / 'frontend/build/static'
-]
+STATIC_ROOT = BASE_DIR / "./static/"
 
 # WEBPACK_LOADER = {
 #     'MANIFEST_FILE': BASE_DIR / 'frontend/build/static/assets/manifest.json'
@@ -144,4 +142,4 @@ STATIC_ROOT = [
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CORS_ALLOW_ALL_ORIGINS = True
+# CORS_ALLOW_ALL_ORIGINS = True
