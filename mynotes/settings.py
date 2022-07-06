@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 """
 
 from pathlib import Path
+import os 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -23,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-#kup2u#uvdwi2+&!a)o#0^eoq!!+(8zps$c^27yv=k5e)3fy++'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['43.200.56.142']
+ALLOWED_HOSTS = ['127.0.0.1', '43.200.56.142']
 
 
 # Application definition
@@ -63,7 +64,8 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            BASE_DIR / 'frontend/build'
+            os.path.join(BASE_DIR, 'build'),
+            # BASE_DIR / 'frontend/build'
         ],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -126,12 +128,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
 STATIC_URL = '/static/'
-
-# STATICFILES_DIRS = [
-#     BASE_DIR / 'frontend/build/static'
-# ]
-
-STATIC_ROOT = BASE_DIR / "./static/"
+STATIC_ROOT = os.path.join(BASE_DIR, 'build/static')
+# STATICFILES_DIRS = [os.path.join(BASE_DIR, 'build/static'),]
 
 # WEBPACK_LOADER = {
 #     'MANIFEST_FILE': BASE_DIR / 'frontend/build/static/assets/manifest.json'
